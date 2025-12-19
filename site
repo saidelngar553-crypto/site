@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>برنامج archives wadi group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+            padding: 40px;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px #ccc;
+        }
+        a {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+        .call {
+            background: #007BFF;
+        }
+        .email {
+            background: #555;
+        }
+        /* تنسيق الصورة */
+        .developer-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 15px 0;
+            object-fit: cover;
+        }
+        /* تنسيق الاسم */
+        .developer-name {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>برنامج archives wadi group</h2>
+   
+    <!-- صورة المطور -->
+    <!-- ضع صورتك في نفس المجلد مع الملف index.html واستبدل الاسم هنا -->
+    <img src="said.png" alt="صورة المطور" class="developer-photo">
+   
+    <!-- اسم المطور -->
+    <div class="developer-name">Eng. Said Shehata Elngar</div>
+
+    <p>للدعم الفني أو التطوير</p>
+
+    <!-- اتصال -->
+    <a class="call" href="tel:201272115000">📞 اتصال بالمطور</a>
+
+    <!-- واتساب -->
+    <a href="https://wa.me/201016647170">💬 واتساب</a>
+
+    <!-- إيميل -->
+    <a class="email" href="mailto:said.shehata@wadigroup.com.eg">✉️ إرسال إيميل</a>
+</div>
+
+</body>
+</html>
